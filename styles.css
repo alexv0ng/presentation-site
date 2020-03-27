@@ -58,3 +58,30 @@ body {
 .page p {
   font-size: 1.3rem;
 }
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #f4f4f4;
+  color: #333;
+  text-decoration: none;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover,
+.btn-dark {
+  background-color: #424949;
+  color: #f4f4f4;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn-dark:hover {
+  color: #424949;
+  background-color: #f4f4f4;
+  transform: scale(1.1);
+}
